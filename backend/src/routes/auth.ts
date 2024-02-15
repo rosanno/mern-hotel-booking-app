@@ -8,7 +8,7 @@ import User from "../models/user";
 const router = express.Router();
 
 router.post(
-  "/post",
+  "/login",
   [
     check("email", "Email is required").isEmail(),
     check(
